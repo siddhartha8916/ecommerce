@@ -1,0 +1,18 @@
+
+.review-card{
+  width: 140vmax;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.review-card img{
+  width: 50px;
+}
+
+.review-content{
+  margin-left: 50px;
+}
+
+.review-content p{
+  font-size: 0.9em;
+}

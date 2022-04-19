@@ -1,0 +1,35 @@
+.navigation_bar_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  height: 70px;
+}
+
+.navigation_bar_container img{
+  width: 170px;
+  height: 60px;
+  position: absolute;
+  left: 20px;
+}
+
+.navigation_bar ul li {
+  display: inline;
+  margin: 50px;
+}
+
+.navigation_bar ul li a{
+  font-weight: 500;
+  color: black;
+}
+
+.navigation_bar_right{
+  position: absolute;
+  right: 20px;
+}
+
+.navigation_bar_right a{
+  color: black;
+  margin: 15px;
+  font-size: 1em;
+}

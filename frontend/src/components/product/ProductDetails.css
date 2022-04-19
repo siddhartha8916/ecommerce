@@ -1,0 +1,127 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 7px;
+  grid-row-gap: 6px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-left: 100px;
+}
+
+.product-images img {
+  width: 200px !important;
+}
+
+.product-details {
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+.product_ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.product_heading {
+  margin-bottom: 30px;
+}
+
+.product_price h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product_quantity {
+  display: flex;
+  align-items: center;
+}
+
+.product_addtocart button {
+  outline: none;
+  border: none;
+  background-color: var(--primary);
+  font-size: 1.3em;
+  border-radius: 10px;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.product_addtocart input {
+  display: inline-block;
+  width: 2.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-to-cart-btn button {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: var(--primary);
+  font-size: 1em;
+  border-radius: 10px;
+  width: 11.4em;
+  height: 2em;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.product_review button {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: var(--primary);
+  font-size: 1em;
+  border-radius: 10px;
+  width: 11.4em;
+  height: 2em;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.product_status {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.product_status span {
+  font-weight: 500;
+}
+
+.product_description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews_container {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.reviews_container h2 {
+  text-align: center;
+}
+
+.reviews{
+  display: flex;
+  overflow-x: scroll;
+  cursor:grab
+}

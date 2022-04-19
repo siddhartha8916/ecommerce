@@ -1,0 +1,41 @@
+.banner{
+  background-color: blueviolet;
+  min-height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content:center ;
+}
+
+.banner > a > button{
+  margin-top: 30px;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.homeHeading{
+  scroll-behavior: smooth;
+  text-align: center;
+  padding: 50px;
+}
+
+.homeHeading + h3{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}

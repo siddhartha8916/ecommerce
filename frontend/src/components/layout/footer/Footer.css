@@ -1,0 +1,30 @@
+.footer-container{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  height: 50px;
+}
+
+.footer-container h4{
+  text-align: center;
+}
+
+.download-links{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.download-links h5{
+color: black;
+margin-right: 20px;
+}
+
+.download-links img{
+  width: 100px;
+  margin: 30px;
+}

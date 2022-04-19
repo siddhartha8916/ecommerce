@@ -1,0 +1,28 @@
+.productCard{
+  width: 12vmax;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+  margin: 50px !important;
+}
+
+.productCard h4{
+  font-weight: 700;
+  font-size: 1.2em;
+  color: black;
+}
+
+.productCard img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
